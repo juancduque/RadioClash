@@ -19,7 +19,9 @@ article {
 }
 
 .logo {
-	max-width: 70%; height: auto;}
+	max-width: 40%; height: auto;}
+	.logoBig {
+		max-width: 100%; height: auto;}
 .container {
 	display:block;
 align-content: space-between;
