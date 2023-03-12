@@ -1,0 +1,100 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+body {
+  background-image:url("../images/radioclash.gif");
+  background-repeat:repeat;
+background-size: contain;
+font-family: "Archivo Narrow","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, 
+}
+
+table {
+font-family: "Archivo Narrow","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial;
+color: whitesmoke;
+}
+
+article {
+	color: whitesmoke;
+	width: 100%;
+}
+
+.logo {
+	max-width: 100%; height: auto;}
+.container {
+	display:block;
+align-content: space-between;
+	justify-content: space-between;
+	color: aliceblue;
+  text-align: justify;
+  font-family:"Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 21px;
+  margin: 25px;
+	width: 80%;}
+
+.logo {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 3em 1.5em;
+font-family: "Archivo Narrow","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, }   
+
+.navigation ul {list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap; }
+
+  #invert:hover {
+    -webkit-filter: invert(.9);
+    filter: invert(.9);
+  }
+  .menuBut-:hover {
+    filter: invert(1);
+	width:inherit;
+  }
+
+  .menuButOff {
+    filter:invert(1);
+  }
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:5 5 15px 4px rgba(0,0,0,0.06);
+}
+
+
+textarea {
+	min-width: 90%;
+	min-height: auto;
+}
+.submit {
+	padding: 6px;
+	border-radius: 10px;
+	font-family: "Archivo Narrow","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.rounded-input {
+	padding: 10px;
+	border-radius:10px;
+
+}
+
+form {
+	padding-left: 10%;
+	align-content: center;
+	color: aliceblue;
+	font-family: "Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	line-height: 2;
+	max-width: 800px;
+	overflow: hidden;
+}
+
+
+
